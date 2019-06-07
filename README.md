@@ -22,7 +22,7 @@ This 3D CNN is a customized version of [Hara's work](https://github.com/kenshoha
 
 You can download pretrained model in his repository.
 
-1. Alignmnet
+2. Alignmnet
 
 Align videos using extracted features.
 
