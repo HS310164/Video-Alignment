@@ -160,17 +160,9 @@ class ResNet(nn.Module):
         x = self.layer2(x)
         x = self.layer3(x)
         x = self.layer4(x)
-        print('########## Print Hidden Layer Outputs ##########')
-        #printlayer = self.avgpool(x).data.numpy
-        #print(printlayer)
-        #ppp = np.array
-        #ppp = printlayer
-        #print(ppp)
-        print('################################################')
         x = self.avgpool(x)
 
         x = x.view(x.size(0), -1)
-        printlayer = x.data
 
         if self.last_fc:
             x = self.fc(x)
