@@ -14,7 +14,7 @@ This is Video alignment process.
 
 # Usage
 
-1. Feature Extract
+## Feature Extract
 
 Extract videos' feature by 2D CNN and 3D CNN.
 
@@ -22,7 +22,7 @@ This 3D CNN is a customized version of [Hara's work](https://github.com/kenshoha
 
 You can download pretrained model in his repository.
 
-2. Alignmnet
+## Alignmnet
 
 Align videos using extracted features.
 
