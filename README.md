@@ -10,6 +10,7 @@ This is Video alignment process.
 - numpy
 - opencv-python
 - joblib
+- tqdm
 
 # Usage
 
